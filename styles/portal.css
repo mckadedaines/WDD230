@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#pic {
+    height: 172px;
+    padding-top: 20px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+#name {
+    padding-top: 3.5%;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3.5%;
+    background-color: #3377aa;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    text-shadow: 5px 5px 10px black;
+}
+
+#class {
+    padding-left: 20px;
+    text-shadow: 5px 5px 10px black;
+}
+
+#foot {
+    padding-left: 50px;
+    color: whitesmoke;
+}
+
+#update {
+    padding-left: 107px;
+}
+
+#footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #3377aa;
+    margin-right: 80%;
+}
+
+#update {
+    color: yellow;
+}
