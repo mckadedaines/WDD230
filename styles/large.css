@@ -1,0 +1,10 @@
+/* Medium size screen */
+@media screen and (min-width: 1600px) {
+    #box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5em;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+}
