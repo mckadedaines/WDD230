@@ -54,11 +54,9 @@ footer {
     margin-right: 1em;
     margin-left: 1em;
     grid-gap: 1em;
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    border-style: solid;
-    border-color: black;
 }
 
 .para {
@@ -69,3 +67,10 @@ footer {
 
 }
 
+.cards {
+    border-style: solid;
+    border-color: black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: whitesmoke;
+}
