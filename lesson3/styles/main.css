@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap');
+
+body {
+    /* margin: 0 auto; */
+    text-align: center;
+    background-color: grey;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    background-color: maroon;
+    color: white;
+    margin-bottom: 0;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 3em;
+    height: 3em;
+}
+
+section h1 {
+    margin: 0;
+    padding-top: 0.5em;
+}
+
+#content {
+    background-color: whitesmoke;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+#audience_ul {
+    background-color: whitesmoke;
+    color: black;
+    list-style: disc;
+    align-items: center;
+    margin-top: 0;
+}
+
+.block ul {
+    display: inline-block;
+}
+
+.block ul li {
+    text-align: left;
+}
+
+#colors {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+#gold {
+    background-color: goldenrod;
+    margin: 0;
+    padding: 1em;
+}
+
+#maroon {
+    background-color: maroon;
+    margin: 0;
+    padding: 1em;
+}
+
+#smokewhite {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 1em;
+}
+
+#black {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    padding: 1em;
+}
+
+#right {
+    font-family: Righteous;
+}
+
+#sand {
+    font-family: Quicksand;
+}
+
+#serif {
+    font-family: sans-serif;
+}
