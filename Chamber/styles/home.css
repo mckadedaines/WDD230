@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap');
+
+body {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;  
+}
+
+.img {
+    width: 3em;
+    height: 3em;
+    background-color: whitesmoke;
+}
+
+.topnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: maroon;
+    padding-top: 1em;
+}
+
+#main-boxes {
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+h3 {
+    color: goldenrod
+}
+
+#foot {
+    color: goldenrod;
+}
+
+main {
+    background-color: whitesmoke;
+    margin-left: 25em;
+    margin-right: 25em;
+}
+
+.box2-event {
+    grid-column-start: 1fr;
+    grid-column-end: 2fr;
+}
+
+.box1-hero {
+    grid-column-start: 2fr;
+    grid-column-end: 3fr;
+    grid-row-start: 1fr;
+    grid-row-end: 3fr;
+    width: auto;
+    height: auto;
+}
+
+.box3-new-releases {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.box4-weather {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.box5-join {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.spotlight-boxes-holder {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#main-boxes > div {
+    border: 1px solid;
+    border-color: black;
+    margin: 10px;
+    background-color: gray;
+    padding: 10px;
+    height: auto;
+    color: var(--gray);
+    height: auto;
+}
+
+.spotlight-boxes {
+    flex-wrap: wrap;
+}
+
+.spotlight-boxes div {
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid;
+}
+

@@ -1,0 +1,5 @@
+@media screen and (max-width: 1000px) {
+    #main-boxes {
+        grid-template-columns: 1fr;
+    }
+}
