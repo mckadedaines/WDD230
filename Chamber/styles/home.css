@@ -25,6 +25,11 @@ body {
     padding-top: 1em;
 }
 
+nav div a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 #main-boxes {
     text-align: center;
     margin: 20px;
@@ -58,10 +63,10 @@ main {
 }
 
 .box1-hero {
-    grid-column-start: 2fr;
-    grid-column-end: 3fr;
-    grid-row-start: 1fr;
-    grid-row-end: 3fr;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
     width: auto;
     height: auto;
 }
