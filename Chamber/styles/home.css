@@ -11,16 +11,15 @@ body {
     height: 3em;
     background-color: whitesmoke;
 }
-
+/* 
 .topnav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 
 .page-links {
     display: flex;
     justify-content: center;
-    gap: 1em;
     background-color: maroon;
     padding-top: 1em;
 }
@@ -33,9 +32,9 @@ nav div a {
 #main-boxes {
     text-align: center;
     margin: 20px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
     background-color: whitesmoke;
 }
 
@@ -130,7 +129,7 @@ main {
     display: none;
 } */
 
-@media only screen and (max-width: 64.5em) {
+@media only screen and (max-width: 1500px) {
 
     /* :root {
 
@@ -204,7 +203,7 @@ main {
 
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 800px) {
 
 
 
