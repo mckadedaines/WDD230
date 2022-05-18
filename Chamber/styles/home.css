@@ -19,9 +19,16 @@ body {
 
 .page-links {
     display: flex;
+    /* gap: 3em; */
     justify-content: center;
     background-color: maroon;
     padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-around;
+}
+
+.page-links a {
+    padding: 0 1em;
 }
 
 nav div a {
@@ -31,7 +38,7 @@ nav div a {
 
 #main-boxes {
     text-align: center;
-    margin: 20px;
+    /* margin: 20px; */
     /* display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; */
@@ -52,10 +59,14 @@ h3 {
 
 main {
     background-color: whitesmoke;
-    margin-left: 25em;
-    margin-right: 25em;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-left: 25em;
+    margin-right: 25em; */
 }
-
+.ham-box, .ham {
+    display: none;
+}
 .box2-event {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -110,7 +121,7 @@ main {
 }
 
 .spotlight-boxes {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .spotlight-boxes div {
@@ -118,6 +129,8 @@ main {
     margin: 5px;
     padding: 10px;
     border: 1px solid;
+    display: flex;
+    flex-direction: column;
 }
 
 .ham {
@@ -125,11 +138,18 @@ main {
     font-size: 2em;
 }
 
-/* .ham-box, .ham {
-    display: none;
-} */
+header {
+    display: flex;
+    background-color: whitesmoke;
+    max-width: 1200px;
+    /* margin-left: 25em;
+    margin-right: 25em; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
 
     /* :root {
 
@@ -151,61 +171,43 @@ main {
 
         } */
 
-
-
     nav {
-
         max-width: 1000px;
-
     }
 
     .topnav {
-
         color: white
-
     }
 
     main {
-
-        display: flex;
-
-        max-width: 1000px;
-
+        /* display: flex; */
+        /* max-width: 1000px; */
         margin: 0 auto;
-
     }
 
-    #main-boxes .spotlight-boxes {
-
+  .spotlight-boxes {
         display: flex;
-
     }
 
     .spotlight-boxes div {
-
         width: 100%;
-
         height: 200px;
-
     }
 
-    .page-links {
-
+    .page-links, .ham-box, .ham {
         display: none;
-
     }
 
     .date {
-
         margin: 0 auto;
-
     }
-
+    .ham-box, .ham {
+        display: block;
+    }
+    
 }
 
-@media only screen and (min-width: 800px) {
-
-
+@media only screen and (min-width: 900px) {
 
     /* :root {
 
@@ -227,131 +229,70 @@ main {
 
         } */
 
-
-
-        .ham-box, .ham {
-
-            display: none;
-
-           
-
-        }
-
         #main-boxes {
-
             display: grid;
-
             grid-template-columns: 1fr 2fr 1fr;
-
             grid-template-rows: 1fr 1fr 1fr;
-
-
-
         }
 
         .spotlight-boxes {
-
             display: flex;
-
-            flex-wrap: wrap;
+            flex-direction: column;
         }
 
         .spotlight-boxes-holder {
-
-           
-
             grid-column-start: 3;
-
             grid-column-end: 4;
-
             grid-row-start: 1;
-
             grid-row-end: 4;
-
         }
 
         .box2-event {
-
             grid-column-start: 1;
-
             grid-column-end: 2;
-
         }
 
         .box1-hero {
-
             grid-column-start: 2;
-
             grid-column-end: 3;
-
             grid-row-start: 1;
-
             grid-row-end: 3;
-
             height: auto;
-
             width: auto;
-
         }
 
         .box3-new-releases {
-
             grid-column-start: 2;
-
             grid-column-end: 3;
-
             grid-row-start: 3;
-
             grid-row-end: 4;
-
         }
 
         .box4-weather {
-
             grid-column-start: 1;
-
             grid-column-end: 2;
-
             grid-row-start: 2;
-
             grid-row-end: 3;
-
         }
 
         .box5-join {
-
             grid-column-start: 1;
-
             grid-column-end: 2;
-
             grid-row-start: 3;
-
             grid-row-end: 4;
-
         }
 
         .page-links {
-
             margin: 15px;
-
-            display: block;
-
-           
-
+            /* display: block; */
         }
 
         .links a {
-
             color: var(--background-white);
-
             text-decoration: none;  
-
         }
 
         .date {
-
             margin: 0 auto;
-
         }
-
 }
