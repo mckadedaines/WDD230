@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap');
+/* :root {
+       
+--blue-active: #3373A3;
+
+--blue-body: #B0D1EB;
+
+--gray: #666665;
+
+--background-white: white;
+
+--accent1: #F0B660;
+
+--accent2: #F8DEB6;
+
+--font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+--roboto-font: 'Roboto';
+
+} */
+
+
+/* Mobile First: Phone SMALL screen size CSS here */
+
+body {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;  
+}
+#foot {
+    color: goldenrod;
+}
+header {
+    display: flex;
+    background-color: whitesmoke;
+    max-width: 1200px;
+    /* margin-left: 25em;
+    margin-right: 25em; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.ham {
+    color: black;
+    font-size: 2em;
+}
+h1 {
+    color: goldenrod;
+}
+h3 {
+    color: goldenrod
+}
+main {
+    background-color: whitesmoke;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-left: 25em;
+    margin-right: 25em; */
+}
+.img {
+    width: 3em;
+    height: 3em;
+    background-color: whitesmoke;
+}
+nav div a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#main-boxes {
+    text-align: center;
+    background-color: whitesmoke;
+}
+#main-boxes > div {
+    border: 1px solid;
+    border-color: black;
+    margin: 10px;
+    background-color: gray;
+    padding: 10px;
+    height: auto;
+    color: var(--gray);
+    height: auto;
+}
+.page-links {
+    margin: 15px;
+    /* display: block; */
+}
+.links a {
+    color: var(--background-white);
+    text-decoration: none;  
+}
+.date {
+    margin: 0 auto;
+}
+/*
+.topnav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+nav {
+    max-width: 1000px;
+}
+.topnav {
+    color: white;
+}
+main {
+    /* display: flex; */
+    /* max-width: 1000px; */
+    margin: 0 auto;
+}
+.spotlight-boxes {
+    display: flex;
+}
+.spotlight-boxes div {
+    width: 100%;
+    height: 200px;
+}
+.page-links, .ham-box, .ham {
+    display: none;
+}
+.date {
+    margin: 0 auto;
+}
+.ham-box, .ham {
+    display: block;
+}
+
+/* When screen is at least 550px use this CSS -- MEDIUM Screens just beyond width of phone */
+
+@media only screen and (min-width: 550px) {
+
+    #main-boxes {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .spotlight-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .spotlight-boxes-holder {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .box2-event {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .box1-hero {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: auto;
+        width: auto;
+    }
+       
+    .box3-new-releases {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .box4-weather {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .box5-join {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+               
+}
+
+/* When screen is at least 900px use this CSS -- LARGER Screens  */
+
+@media only screen and (min-width: 900px) {
+
+    .page-links {
+        display: flex;
+        /* gap: 3em; */
+        justify-content: center;
+        background-color: maroon;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        justify-content: space-around;
+    }
+    .page-links a {
+        padding: 0 1em;
+    }
+    #main-boxes {
+       
+        /* margin: 20px; */
+        /* display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; */
+       
+    }
+   
+    .ham-box, .ham {
+        display: none;
+    }
+    .box2-event {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+   
+    .box1-hero {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: auto;
+        height: auto;
+    }
+   
+    .box3-new-releases {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+   
+    .box4-weather {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+   
+    .box5-join {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+   
+    .spotlight-boxes-holder {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    spotlight-boxes div {
+        height: 200px;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
