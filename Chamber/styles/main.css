@@ -1,24 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap');
-/* :root {
-       
---blue-active: #3373A3;
-
---blue-body: #B0D1EB;
-
---gray: #666665;
-
---background-white: white;
-
---accent1: #F0B660;
-
---accent2: #F8DEB6;
-
---font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
---roboto-font: 'Roboto';
-
-} */
-
 
 /* Mobile First: Phone SMALL screen size CSS here */
 
@@ -64,20 +44,18 @@ main {
 }
 nav div a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
 }
 #main-boxes {
     text-align: center;
     background-color: whitesmoke;
 }
 #main-boxes > div {
-    border: 1px solid;
-    border-color: black;
+    /* border: 1px solid;
+    border-color: black; */
     margin: 10px;
     background-color: gray;
     padding: 10px;
-    height: auto;
-    color: var(--gray);
     height: auto;
 }
 .page-links {
@@ -91,10 +69,10 @@ nav div a {
 .date {
     margin: 0 auto;
 }
-/*
-.topnav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
+/* .topnav {
+    display: flex;
+    flex-direction: column;
 } */
 nav {
     max-width: 1000px;
@@ -124,6 +102,9 @@ main {
     display: block;
 }
 
+.box2-event, .box4-weather, .box5-join {
+    box-shadow: 5px 5px 10px grey;
+}
 /* When screen is at least 550px use this CSS -- MEDIUM Screens just beyond width of phone */
 
 @media only screen and (min-width: 550px) {
@@ -262,4 +243,7 @@ main {
         flex-direction: column;
     }
    
+    .page-links {
+        box-shadow: 5px 5px 10px grey;
+    }
 }
