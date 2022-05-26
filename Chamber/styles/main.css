@@ -139,10 +139,18 @@ footer {
     width: 40%;
 }
 
-.spotlight {
-    margin-bottom: 20%;
-}
-
 .active:hover {
     color: #2BB5D9;
+}
+
+#date {
+    color: white;
+    margin: 0 auto;
+    background-color: #2BB5D9;
+    width: 80%;
+    /* padding-top: 0.5px;
+    padding-bottom: 0.5px; */
+    font-size: 120%;
+    border: 1px solid;
+    border-color: black;
 }
