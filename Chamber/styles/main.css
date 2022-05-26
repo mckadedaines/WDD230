@@ -7,9 +7,11 @@ body {
     background-color: whitesmoke;
     color: whitesmoke;  
 }
+
 #foot {
     color: goldenrod;
 }
+
 header {
     display: flex;
     background-color: whitesmoke;
@@ -20,16 +22,23 @@ header {
     align-items: center;
     margin: 0 auto;
 }
+
 .ham {
     color: black;
     font-size: 2em;
 }
+
 h1 {
     color: goldenrod;
+    /* background-color: #18a5c0; */
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
 h3 {
     color: goldenrod
 }
+
 main {
     background-color: whitesmoke;
     max-width: 1200px;
@@ -37,19 +46,23 @@ main {
     /* margin-left: 25em;
     margin-right: 25em; */
 }
+
 .img {
     width: 3em;
     height: 3em;
     background-color: whitesmoke;
 }
+
 nav div a {
     text-decoration: none;
     color: whitesmoke;
 }
+
 #main-boxes {
     text-align: center;
     background-color: whitesmoke;
 }
+
 #main-boxes > div {
     /* border: 1px solid;
     border-color: black; */
@@ -58,46 +71,50 @@ nav div a {
     padding: 10px;
     height: auto;
 }
+
 .page-links {
     margin: 15px;
     /* display: block; */
 }
+
 .links a {
     color: var(--background-white);
     text-decoration: none;  
 }
+
 .date {
     margin: 0 auto;
 }
 
-/* .topnav {
-    display: flex;
-    flex-direction: column;
-} */
 nav {
     max-width: 1000px;
 }
+
 .topnav {
     color: white;
 }
+
 main {
-    /* display: flex; */
-    /* max-width: 1000px; */
     margin: 0 auto;
 }
+
 .spotlight-boxes {
     display: flex;
 }
+
 .spotlight-boxes div {
     width: 100%;
     height: 200px;
 }
+
 .page-links, .ham-box, .ham {
     display: none;
 }
+
 .date {
     margin: 0 auto;
 }
+
 .ham-box, .ham {
     display: block;
 }
@@ -108,154 +125,23 @@ main {
 
 .box1-hero img {
     width: 100%;
-    /* height: 100%; */
 }
 
 footer {
-    background-color: gray;
+    /* background-color: #18a5c0; */
     width: auto;
     margin: 0 auto;
-}   
-
-/* When screen is at least 550px use this CSS -- MEDIUM Screens just beyond width of phone */
-
-@media only screen and (min-width: 550px) {
-
-    #main-boxes {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .spotlight-boxes {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .spotlight-boxes-holder {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;
-    }
-
-    .box2-event {
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-
-    .box1-hero {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        height: auto;
-        width: auto;
-    }
-       
-    .box3-new-releases {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .box4-weather {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-    .box5-join {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-               
+    color: #daa520;
 }
 
-/* When screen is at least 900px use this CSS -- LARGER Screens  */
+.spotlight img {
+    width: 40%;
+}
 
-@media only screen and (min-width: 900px) {
+.spotlight {
+    margin-bottom: 20%;
+}
 
-    .page-links {
-        display: flex;
-        /* gap: 3em; */
-        justify-content: center;
-        background-color: gray;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        justify-content: space-around;
-    }
-    .page-links a {
-        padding: 0 1em;
-    }
-    #main-boxes {
-       
-        /* margin: 20px; */
-        /* display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr; */
-       
-    }
-   
-    .ham-box, .ham {
-        display: none;
-    }
-    .box2-event {
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-   
-    .box1-hero {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 3;
-        /* width: auto;
-        height: auto; */
-    }
-   
-    .box3-new-releases {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-   
-    .box4-weather {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-   
-    .box5-join {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-   
-    .spotlight-boxes-holder {
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 1;
-        grid-row-end: 4;
-    }
-
-    spotlight-boxes div {
-        height: 200px;
-        margin: 5px;
-        padding: 10px;
-        border: 1px solid;
-        display: flex;
-        flex-direction: column;
-    }
-   
-    .page-links {
-        box-shadow: 5px 5px 10px grey;
-    }
+.active:hover {
+    background-color: #2BB5D9;
 }
