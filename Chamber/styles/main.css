@@ -31,8 +31,9 @@ header {
 h1 {
     color: goldenrod;
     /* background-color: #18a5c0; */
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    text-shadow: 5px 5px 10px gray;
 }
 
 h3 {
@@ -100,11 +101,11 @@ main {
 
 .spotlight-boxes {
     display: flex;
+    flex-direction: column;
 }
 
 .spotlight-boxes div {
     width: 100%;
-    height: 200px;
 }
 
 .page-links, .ham-box, .ham {
@@ -143,5 +144,5 @@ footer {
 }
 
 .active:hover {
-    background-color: #2BB5D9;
+    color: #2BB5D9;
 }
