@@ -23,4 +23,4 @@ function buildWC(speed, temp)
     feelTemp.innerHTML = wc;
 }
 
-buildWC();
+buildWC(speed, temp);
