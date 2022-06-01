@@ -22,3 +22,5 @@ function buildWC(speed, temp)
     // wc = "Feels like '+wc+'F";
     feelTemp.innerHTML = wc;
 }
+
+buildWC();
