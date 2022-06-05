@@ -154,3 +154,33 @@ footer {
     border: 1px solid;
     border-color: black;
 }
+
+#discover-h1 {
+    color: goldenrod;
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+
+.discover-pics {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 40px 40px 0px 40px;
+}
+
+.discover-p {
+    color: black;
+}
+
+.discover-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.visited {
+    color: #daa520;
+    background-color: gray;
+    border: 2px solid black;
+}
