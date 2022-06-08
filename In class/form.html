@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="form.js"></script>
     <title>Form</title>
 </head>
 <body>
@@ -14,6 +15,8 @@
         <input id="pw" required minlength="8" pattern="[- A-Za-z]+">
         <label for="phone">First Name *:</label>
         <input id="phone" type="tel"  minlength="10" name="telephone" placeholder="(###) ###-####" required>
+        <input id="date" type="hidden" name="email_sent_date">
+
         <button type="submit">Submit Form</button>
     </form>
 </body>
