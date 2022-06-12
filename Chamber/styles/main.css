@@ -184,3 +184,45 @@ footer {
     background-color: gray;
     border: 2px solid black;
 }
+
+form {
+    color: black;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+}
+
+#description {
+    margin: 10px;
+}
+
+.field {
+    /* display: grid;
+    flex-wrap: wrap; */
+}
+
+fieldset {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    width: 25%;
+}
+
+.bars {
+    margin-left: 10px;
+}
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.options {
+    margin: 10px;
+}
