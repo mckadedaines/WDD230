@@ -226,3 +226,11 @@ fieldset {
 .options {
     margin: 10px;
 }
+
+#memberships {
+    color: black;
+}
+
+#join-main {
+    display: flex;
+}

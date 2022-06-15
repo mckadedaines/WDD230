@@ -29,7 +29,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="join-main">
             <form action="thankyou.html" method="get" autocomplete="on">
                 <div class="inputs">
                     <lable for="fname">First Name *:</lable>
@@ -70,6 +70,11 @@
                     <label for="description">Business description:</label>
                     <input id="description" name="description" style="height: 100px; width: 350px;">
 
+                    <input id="date" type="hidden" name="email_sent_date">
+    
+                    <button type="submit">Submit Form</button>
+                </form>
+                    
             <div id="memberships">
                 <div class="options">
                     <b>NP Membership</b>
@@ -106,11 +111,6 @@
                     </ul>
                 </div>
             </div>
-
-            <input id="date" type="hidden" name="email_sent_date">
-    
-            <button type="submit">Submit Form</button>
-        </form>
     </main>
 
     <footer>
