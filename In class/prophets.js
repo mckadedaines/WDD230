@@ -15,8 +15,8 @@ async function getPophets(requestURL) {
         const jsonObject = await response.json();
         console.log(jsonObject);
         const prophets = jsonObject['prophets'];
-        // prophets.forEach(displayProphets);
-        prophets.forEach(displayTable);
+        prophets.forEach(displayProphets);
+        // prophets.forEach(displayTable);
     }
 };
 
