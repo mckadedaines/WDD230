@@ -1,2 +1,2 @@
-const jsonData = ('json/data.json');
+const jsonData = 'json/data.json';
 console.log(jsonData);
