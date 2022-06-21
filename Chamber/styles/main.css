@@ -234,3 +234,17 @@ fieldset {
 #join-main {
     display: flex;
 }
+
+.cards{
+    color: black;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.cards section {
+    background-color: red;
+}
+
+.cards img {
+    width: 25%;
+}

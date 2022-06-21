@@ -16,19 +16,19 @@ getCards(requestURL);
 function displayBusiness(cards) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let dob = document.createElement('p');
-    let pob = document.createElement('p');
+    let add = document.createElement('p');
+    let web = document.createElement('p');
     let img = document.createElement('img');
 
     h2.textContent = cards.name;
     // Stopped right here
-    dob.textContent = `${prophet.birthdate}`;
-    pob.textContent = `${prophet.birthplace}`;
-    img.setAttribute('src', prophet.imageurl);
-    img.setAttribute('alt', `${prophet.name} ${prophet.lastname} ${prophet.order}`);
+    add.textContent = cards.address;
+    web.textContent = cards.website;
+    img.setAttribute('src', cards.imageurl);
+    img.setAttribute('alt', `${cards.name}`);
     card.appendChild(h2);
-    card.appendChild(dob);
-    card.appendChild(pob);
+    card.appendChild(add);
+    card.appendChild(web);
     card.appendChild(img);
     document.querySelector('.cards').appendChild(card);
 }
