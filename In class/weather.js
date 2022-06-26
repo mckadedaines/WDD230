@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5605242&appid=22569e3a1a6455138bbd985b0660d5fa";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5304391&appid=22569e3a1a6455138bbd985b0660d5fa";
 const getWeather = async () => {
     const response = await fetch(apiURL);
     jsObject = await response.json();
