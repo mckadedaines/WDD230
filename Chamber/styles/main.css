@@ -242,7 +242,9 @@ fieldset {
 }
 
 .cards section {
-    background-color: red;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 5px;
     /* width: 100%; */
 }
 
