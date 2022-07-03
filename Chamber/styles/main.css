@@ -4,7 +4,7 @@
 
 body {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #e2dfd8;
     color: whitesmoke;  
 }
 
@@ -14,7 +14,7 @@ body {
 
 header {
     display: flex;
-    background-color: whitesmoke;
+    background-color: #e2dfd8;
     max-width: 1200px;
     /* margin-left: 25em;
     margin-right: 25em; */
@@ -41,7 +41,7 @@ h3 {
 }
 
 main {
-    background-color: whitesmoke;
+    background-color: #e2dfd8;
     max-width: 1200px;
     margin: 0 auto;
     /* margin-left: 25em;
@@ -51,7 +51,7 @@ main {
 .img {
     width: 3em;
     height: 3em;
-    background-color: whitesmoke;
+    background-color: #e2dfd8;
 }
 
 nav div a {
@@ -61,7 +61,7 @@ nav div a {
 
 #main-boxes {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #e2dfd8;
 }
 
 #main-boxes > div {
